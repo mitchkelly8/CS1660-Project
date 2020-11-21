@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cs1660</groupId>
+  <artifactId>cs1660-project-maven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <dependency>
+     	 <groupId>com.google.cloud</groupId>
+      	<artifactId>google-cloud-storage</artifactId>
+      	<version>1.106.0</version>
+    </dependency>
+    <dependency>
+      	<groupId>com.google.apis</groupId>
+      	<artifactId>google-api-services-dataproc</artifactId>
+      	<version>v1-rev150-1.25.0</version>
+    </dependency>	
+    <dependency>
+    	<groupId>com.google.cloud</groupId>
+    	<artifactId>google-cloud-dataproc</artifactId>
+    	<version>0.34.0-alpha</version>
+	</dependency>
+  </dependencies>
+  
+</project>
