@@ -45,15 +45,34 @@ The following are steps to run the application using the Docker image that is av
 The following steps outline how to run the program locally (not through Docker) using the Runnable Jar. 
 
 ### Prerequisite Steps:
-1. Install Homebrew
+1. Install Git
+2. Install Homebrew
 
 ### Steps to Clone the Repository:
-2. Create a new directory on your local file system. 
-3. In terminal, navigate to your newly created directory. 
-
+3. Create a new directory on your local file system. 
+4. In terminal, navigate to your newly created directory. 
+5. In terminal, call `git clone git@github.com:mitchkelly8/CS1660-Project.git` to clone the repository to your local directory. 
+6. In terminal, call `cd CS1660-Project` to navigate to the cloned project.
+7. In terminal, call `cd runnable_jar_files` to navigate to the folder containing the JAR files. 
 
 ### Steps for Google Authentication: 
-2. Authenticate to a Google Cloud API (see [reference](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)).
+8. Authenticate to a Google Cloud API (see [reference](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)).
+9. In terminal, call `export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"` to set your Google Application Credentials. 
+   - NOTE: You must replace PATH with the Path to the downloaded JSON file. 
+
+### Steps for GUI Setup (MacOS):
+10. In terminal, call `brew cast install xquartz` to install XQuartz.
+11. In terminal, call `open -a XQuartz`to open XQuartz.
+12. Once XQuartz is open: 
+    - Click **XQuartz** in the menu bar. 
+    - Click **Preferences**. 
+    - Click **Security**
+    - Select **Allow connections from network clients**
+13. In terminal, call `ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')` to set your ip environment variable.
+14. In terminal, call `xhost + $ip` to allow connections from your local machine.
+
+### Steps for Docker Image Execution:
+15. In terminal, call `java -jar project.jar -e DISPLAY=$ip:0` to launch the application.
 
 ## Links:
 
