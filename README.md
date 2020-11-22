@@ -80,8 +80,8 @@ The following steps outline how to run the program locally (not through Docker) 
 15. In terminal, call `java -jar project.jar -e DISPLAY=$ip:0` to launch the application.
 
 ## References:
-- [Inverted Index](https://acadgild.com/blog/building-inverted-index-mapreduce)
-- [Maven](https://youtu.be/sNEcpw8LPpo)
+- [Inverted Index Tutorial](https://acadgild.com/blog/building-inverted-index-mapreduce)
+- [Maven Tutorial](https://youtu.be/sNEcpw8LPpo)
 - [Google Authentication](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)
 - [Google Cloud API Functions](https://cloud.google.com/storage/docs/how-to)
 - [GUI Setup](https://fredrikaverpil.github.io/2016/07/31/docker-for-mac-and-gui-applications/)
