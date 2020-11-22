@@ -28,3 +28,5 @@
 - [Video Walkthrough]()
 
 ## References:
+- [Inverted Index Reference](https://acadgild.com/blog/building-inverted-index-mapreduce)
+- [Maven Reference](https://youtu.be/sNEcpw8LPpo)
