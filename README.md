@@ -1,5 +1,11 @@
 # CS1660-Project
 
+## Grading Criteria
+
+| Attempt | #1  | #2  |
+| :-----: | :-: | :-: |
+| Seconds | 301 | 283 |
+
 ## Steps to run the Docker image:
 
 ### Prerequisite Steps:
@@ -20,7 +26,7 @@
 
 ### Steps for Docker Image Execution: 
 10. In terminal, call `docker pull mitchkelly8/cs1660-project:firstpush` to download the image from Docker Hub. 
-11. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json project` to execute the docker image. 
+11. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json mitchkelly8/cs1660-project:firstpush` to execute the docker image. 
 
 ## Links:
 
