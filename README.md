@@ -1,12 +1,12 @@
 # CS1660-Project
 
-## Steps to run the Docker image
+## Steps to run the Docker image:
 
 ### Prerequisite Steps:
 1. Install Docker
 2. Install Homebrew
 
-### Steps for Google Authentication 
+### Steps for Google Authentication: 
 3. Authenticate to a Google Cloud API (see [reference](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)).
 4. Create a new directory on your local file system. 
 5. Add the downloaded JSON file to your new directory. 
@@ -21,3 +21,10 @@
 ### Steps for Docker Image Execution: 
 10. In terminal, call `docker pull mitchkelly8/cs1660-project:firstpush` to download the image from Docker Hub. 
 11. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json project` to execute the docker image. 
+
+## Links:
+
+- [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
+- [Video Walkthrough]()
+
+## References:
