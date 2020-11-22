@@ -4,7 +4,10 @@
 
 | Item | Done?  |
 | :-----: | :-: |
-| Seconds | 301 |
+| First Java Application Implementation and Execution on Docker | Yes |
+| Docker to Local (or GCP) Cluster Communication | Yes |
+| Inverted Indexing MapReduce Implementation and Execution on the Cluster (GCP) | Yes |
+| Term and Top-N Search | Yes |
 
 ## Steps to run the Docker image:
 
