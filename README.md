@@ -9,7 +9,9 @@
 | Inverted Indexing MapReduce Implementation and Execution on the Cluster (GCP) | Yes |
 | Term and Top-N Search | Yes |
 
-## Steps to run the Docker image:
+## Steps to run the application (Docker Image):
+
+The following are steps to run the application using the Docker image that is available in a public repository on my Docker Hub Account. 
 
 ### Prerequisite Steps:
 1. Install Docker
@@ -38,6 +40,21 @@
 13. In terminal, call `docker pull mitchkelly8/cs1660-project:firstpush` to download the image from Docker Hub. 
 14. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json mitchkelly8/cs1660-project:firstpush` to execute the docker image. 
 
+## Steps to run the application (JAR):
+
+The following steps outline how to run the program locally (not through Docker) using the Runnable Jar. 
+
+### Prerequisite Steps:
+1. Install Homebrew
+
+### Steps to Clone the Repository:
+2. Create a new directory on your local file system. 
+3. In terminal, navigate to your newly created directory. 
+
+
+### Steps for Google Authentication: 
+2. Authenticate to a Google Cloud API (see [reference](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)).
+
 ## Links:
 
 - [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
@@ -46,4 +63,5 @@
 ## References:
 - [Inverted Index](https://acadgild.com/blog/building-inverted-index-mapreduce)
 - [Maven](https://youtu.be/sNEcpw8LPpo)
+- [Google Authentication](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)
 - [Google Cloud API Functions](https://cloud.google.com/storage/docs/how-to)
