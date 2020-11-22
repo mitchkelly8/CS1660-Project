@@ -37,5 +37,6 @@
 - [Video Walkthrough]()
 
 ## References:
-- [Inverted Index Reference](https://acadgild.com/blog/building-inverted-index-mapreduce)
-- [Maven Reference](https://youtu.be/sNEcpw8LPpo)
+- [Inverted Index](https://acadgild.com/blog/building-inverted-index-mapreduce)
+- [Maven](https://youtu.be/sNEcpw8LPpo)
+- [Google Cloud API Functions](https://cloud.google.com/storage/docs/how-to)
