@@ -3,7 +3,7 @@
 ## Grading Criteria
 
 | Item | Done?  |
-| :-----: | :-: |
+| :----- | :-: |
 | First Java Application Implementation and Execution on Docker | Yes |
 | Docker to Local (or GCP) Cluster Communication | Yes |
 | Inverted Indexing MapReduce Implementation and Execution on the Cluster (GCP) | Yes |
