@@ -1,5 +1,6 @@
 Manifest-Version: 1.0
 Built-By: MitchKelly
 Build-Jdk: 12.0.2
+Main-Class: com.roufid.tutorials.AppTest
 Created-By: Maven Integration for Eclipse
 

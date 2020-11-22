@@ -99,7 +99,7 @@ public class GUI {
 		 * The first GUI that is loaded after the application is launched.
 		 */
 		public void generateInitialGUI() {
-			panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
+			panel.setBorder(BorderFactory.createEmptyBorder(300, 300, 100, 300));
 			panel.setLayout(new GridLayout(5, 5));
 			
 			// Add Label 
@@ -127,8 +127,13 @@ public class GUI {
 			frame.add(panel, BorderLayout.CENTER);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setTitle("Mitch Kelly Search Engine");
-			frame.setExtendedState(JFrame.MAXIMIZED_BOTH); 
-			frame.setUndecorated(true);
+			
+			
+			//frame.setExtendedState(JFrame.MAXIMIZED_BOTH); 
+			//frame.setUndecorated(true);
+			
+			
+			//frame.pack();
 			frame.setVisible(true);
 		}
 		
