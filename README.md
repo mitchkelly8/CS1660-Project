@@ -25,6 +25,7 @@
 
 ### Steps for GUI Setup (MacOS):
 8. In terminal, call `brew cast install xquartz` to install XQuartz.
+9. In terminal, call `open -a XQuartz`to open XQuartz.
 9. In terminal, call `ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')` to set your ip environment variable.
 10. In terminal, call `xhost + $ip` to allow connections from your local machine.
 
