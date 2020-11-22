@@ -1,5 +1,10 @@
 # CS1660-Project
 
+## Links:
+
+- [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
+- [Video Walkthrough]()
+
 ## Grading Criteria
 
 | Item | Done?  |
@@ -73,11 +78,6 @@ The following steps outline how to run the program locally (not through Docker) 
 
 ### Steps for Docker Image Execution:
 15. In terminal, call `java -jar project.jar -e DISPLAY=$ip:0` to launch the application.
-
-## Links:
-
-- [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
-- [Video Walkthrough]()
 
 ## References:
 - [Inverted Index](https://acadgild.com/blog/building-inverted-index-mapreduce)
