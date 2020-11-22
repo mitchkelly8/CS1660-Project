@@ -2,9 +2,9 @@
 
 ## Grading Criteria
 
-| Attempt | #1  | #2  |
-| :-----: | :-: | :-: |
-| Seconds | 301 | 283 |
+| Item | Done?  |
+| :-----: | :-: |
+| Seconds | 301 |
 
 ## Steps to run the Docker image:
 
