@@ -19,7 +19,7 @@
 3. Authenticate to a Google Cloud API (see [reference](https://cloud.google.com/docs/authentication/getting-started#auth-cloud-implicit-java)).
 4. Create a new directory on your local file system. 
 5. Add the downloaded JSON file to your new directory. 
-6. Rename the downloaded JSON file to credentials.json.
+6. Rename the downloaded JSON file to `credentials.json`.
    - NOTE: This step is optional. However, you will need to update the JSON file name in step 10 to reflect your credentials file name. 
 7. In terminal, navigate to your newly created directory. 
 
