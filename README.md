@@ -26,12 +26,17 @@
 ### Steps for GUI Setup (MacOS):
 8. In terminal, call `brew cast install xquartz` to install XQuartz.
 9. In terminal, call `open -a XQuartz`to open XQuartz.
-9. In terminal, call `ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')` to set your ip environment variable.
-10. In terminal, call `xhost + $ip` to allow connections from your local machine.
+10. Once XQuartz is open: 
+    - Click **XQuartz** in the menu bar. 
+    - Click **Preferences**. 
+    - Click **Security**
+    - Select **Allow connections from network clients**
+11. In terminal, call `ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')` to set your ip environment variable.
+12. In terminal, call `xhost + $ip` to allow connections from your local machine.
 
 ### Steps for Docker Image Execution: 
-11. In terminal, call `docker pull mitchkelly8/cs1660-project:firstpush` to download the image from Docker Hub. 
-12. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json mitchkelly8/cs1660-project:firstpush` to execute the docker image. 
+13. In terminal, call `docker pull mitchkelly8/cs1660-project:firstpush` to download the image from Docker Hub. 
+14. In terminal, call `docker run -e DISPLAY=$ip:0 -e GOOGLE_APPLICATION_CREDENTIALS=credentials.json mitchkelly8/cs1660-project:firstpush` to execute the docker image. 
 
 ## Links:
 
