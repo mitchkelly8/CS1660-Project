@@ -3,7 +3,8 @@
 ## Links:
 
 - [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
-- [Video Walkthrough](https://youtu.be/A1-3RLlwnl0)
+- [Video Walkthrough on YouTube](https://youtu.be/A1-3RLlwnl0)
+- [Video Walkthrough on OneDrive]()
 
 ## Grading Criteria
 
