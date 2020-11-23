@@ -4,7 +4,7 @@
 
 - [DockerHub Repository](https://hub.docker.com/repository/docker/mitchkelly8/cs1660-project)
 - [Video Walkthrough on YouTube](https://youtu.be/A1-3RLlwnl0)
-- [Video Walkthrough on OneDrive](https://pitt-my.sharepoint.com/:v:/g/personal/mjk139_pitt_edu/EbhjVb6aPJJNsRWmFMwSVvUBKVoNUyH3XGec7fwtMOuBNg?e=MxkYhk)
+- [Video Walkthrough on OneDrive](https://pitt-my.sharepoint.com/:v:/g/personal/mjk139_pitt_edu/EbhjVb6aPJJNsRWmFMwSVvUBPjQhqk7MMwlCHCDnam-3cg?e=KQfdR8)
 
 ## Grading Criteria
 
