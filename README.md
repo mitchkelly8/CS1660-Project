@@ -78,7 +78,7 @@ The following steps outline how to run the program locally (not through Docker) 
 14. In terminal, call `ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')` to set your ip environment variable.
 15. In terminal, call `xhost + $ip` to allow connections from your local machine.
 
-### Steps for Docker Image Execution:
+### Steps for JAR Execution:
 16. In terminal, call `java -jar project.jar -e DISPLAY=$ip:0` to launch the application.
 
 ## References:
